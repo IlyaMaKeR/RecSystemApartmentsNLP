@@ -3,11 +3,11 @@ import pymysql
 
 def search_apartments_by_tags(tags):
     connector = pymysql.connect(
-        host="93.157.236.142",
+        host="",
         user="Admin",
-        password="87878787",
+        password="",
         database="apartments",
-        port=3320
+        port=
     )
 
     cursor = connector.cursor()
