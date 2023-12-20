@@ -6,11 +6,11 @@ import asyncio
 
 
 connector = pymysql.connect(
-    host="93.157.236.142",
+    host="",
     user="Admin",
-    password="87878787",
+    password="",
     database="apartments",
-    port=3320
+    port=
 )
 
 app = Flask(__name__)
