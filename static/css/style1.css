@@ -1,0 +1,60 @@
+body {
+    background-image: url('/static/img/jpg/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 60px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    background: #5da3d3;
+    flex-shrink: 0;
+}
+
+.button:hover{
+    background: #2a657a;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Marmelad;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.logo img{
+    width: 168px;
+    height: 116px;
+    flex-shrink: 0;
+}
+
+.hello hh1 {
+    font-size: 58px;
+}
+
+.hello h1 {
+    color: #000;
+    font-family: Ruda;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.object4 h2 {
+    color: #000;
+    font-family: Yanone Kaffeesatz;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

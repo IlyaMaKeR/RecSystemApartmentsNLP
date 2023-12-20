@@ -1,0 +1,24 @@
+.object1 {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+
+.object2 {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+}
+
+.object4 {
+    position: absolute;
+    top: 480px;
+    left: 120px;
+}
+
+.object3 {
+    position: absolute;
+    top: 600px;
+    left: 120px;
+    bottom: 273px;
+}

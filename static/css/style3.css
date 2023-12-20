@@ -1,0 +1,48 @@
+body {
+    background-image: url('/static/img/jpg/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    float: left;
+    background: #5da3d3;
+    border-radius: 40px;
+}
+
+.card:hover {
+    background: #2a657a;
+}
+
+.object2 h1{
+    color: #000;
+    font-family: Ruda;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.object3 h2 {
+    color: #fff;
+    font-family: Ruda;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.object3 p {
+    color: #fff;
+    font-family: Ruda;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

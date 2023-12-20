@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style1.css">
+    <link rel="stylesheet" href="/static/css/object3page.css">
+    <link rel="stylesheet" href="/static/css/style3.css">
+    <link rel="icon" href="/static/img/svg-icon/icon3.svg">
+    <title>Результаты поиска</title>
+</head>
+<body>
+    <div class="object1">
+        <div class="logo">
+            <img src="/static/img/jpg/logo.png" alt="logo">
+        </div>
+    </div>
+
+    <div class="object2">
+        <h1>Результаты поиска:</h1>
+    </div>
+    <div class="object3" id="cards-container">
+        {% for result in results %}
+        <div class="card">
+            <h2>Номер квартиры: {{ result.ID }}</h2>
+            <p>Площадь в м²: {{ result.Площадь }}</p>
+            <p>Кол-во комнат: {{ result.Комнат }}</p>
+            <p>Цена квартиры в ₽: {{ result.Цена }}</p>
+            <p>Местоположение: {{ result.Местоположение }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style1.css">
+    <link rel="stylesheet" href="/static/css/style2.css">
+    <link rel="stylesheet" href="/static/css/object2page.css">
+    <link rel="icon" href="/static/img/svg-icon/icon2.svg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marmelad&family=Ruda:wght@400&family=Yanone+Kaffeesatz:wght@300&display=swap">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск по тегам</title>
+</head>
+<body>
+    <div class="object1">
+        <div class="logo">
+            <img src="/static/img/jpg/logo.png" alt="logo">
+        </div>
+    </div>
+
+    <div class="object2">
+        <div class="hello">
+            <h1>Поиск по тегам</h1>
+        </div>
+        <p>Введите запрос в данном порядке: <br><p1><br>Площадь х м², Кол-во комнат х, Цена х, "Местоположение", "Комфорт".</p1></p>
+        <p>Вот пример запроса: <br><p1><br>Площадь 8O, 3 комнаты, Цена 90000000, Московская Область, Уютная.</p1></p>
+        <p>Вот пример запроса: <br><p1><br>4 комнаты, Москва.</p1></p>
+        <form action="{{ url_for('process_request') }}" method="get">
+            <label for="text">Введите теги через запятую:</label>
+            <input type="text" id="text" name="text" required>
+            <button type="submit"><img src="/static/img/svg-icon/search.svg" alt="search"></button>
+        </form>
+    </div>
+</body>
+</html>
